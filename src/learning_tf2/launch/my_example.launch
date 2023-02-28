@@ -1,0 +1,6 @@
+<launch>
+  <node name="my_custom_node1" pkg="learning_tf2" type="my_custom_node.py">
+    <param name="mymsg" type="string" value="mysecretmsg" />
+  </node>
+
+</launch>
